@@ -1,10 +1,8 @@
 ## DOMPDF Wrapper for Laravel 5
 
-### For Laravel 4.x, check the [0.4 branch](https://github.com/barryvdh/laravel-dompdf/tree/0.4)!
-
 Require this package in your composer.json and update composer. This will download the package and the dompdf + fontlib libraries also.
 
-    composer require barryvdh/laravel-dompdf
+    composer require usmanbarefoot/laravel-dompdf
 
 ## Installation
 
@@ -61,7 +59,7 @@ You can also use your ConfigProvider to set certain keys.
 ### Configuration
 The defaults configuration settings are set in `config/dompdf.php`. Copy this file to your own config directory to modify the values. You can publish the config using this command:
 
-    php artisan vendor:publish --provider="Barryvdh\DomPDF\ServiceProvider"
+    php artisan vendor:publish --provider="Usmanbarefoot\DomPDF\ServiceProvider"
 
 You can still alter the dompdf options in your code before generating the pdf using this command:
 
