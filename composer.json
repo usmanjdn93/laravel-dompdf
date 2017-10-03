@@ -5,8 +5,8 @@
     "keywords": ["laravel", "dompdf", "pdf"],
     "authors": [
         {
-            "name": "Barry vd. Heuvel",
-            "email": "barryvdh@gmail.com"
+            "name": "usmanbarefoot",
+            "email": "usman.jadoon@barefoot-studio.be"
         }
     ],
     "require": {
@@ -17,16 +17,16 @@
 
     "autoload": {
         "psr-4": {
-            "Barryvdh\\DomPDF\\": "src"
+            "Usmanbarefoot\\DomPDF\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Barryvdh\\DomPDF\\ServiceProvider"
+                "Usmanbarefoot\\DomPDF\\ServiceProvider"
             ],
             "aliases": {
-                "PDF": "Barryvdh\\DomPDF\\Facade"
+                "PDF": "Usmanbarefoot\\DomPDF\\Facade"
             }
         }
     }
