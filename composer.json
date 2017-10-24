@@ -29,5 +29,6 @@
                 "PDF": "Usmanbarefoot\\DomPDF\\Facade"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
