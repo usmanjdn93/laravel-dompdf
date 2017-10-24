@@ -12,21 +12,24 @@
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.1.x|5.2.x|5.3.x|5.4.x|5.5.x",
-        "dompdf/dompdf": "0.8.0"
+        "dompdf/dompdf": "^0.8"
     },
 
     "autoload": {
         "psr-4": {
-            "Usmanbarefoot\\DomPDF\\": "src"
+            "Barryvdh\\DomPDF\\": "src"
         }
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "0.8-dev"
+        },
         "laravel": {
             "providers": [
-                "Usmanbarefoot\\DomPDF\\ServiceProvider"
+                "Barryvdh\\DomPDF\\ServiceProvider"
             ],
             "aliases": {
-                "PDF": "Usmanbarefoot\\DomPDF\\Facade"
+                "PDF": "Barryvdh\\DomPDF\\Facade"
             }
         }
     },
