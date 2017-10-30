@@ -2,7 +2,7 @@
 
 Require this package in your composer.json and update composer. This will download the package and the dompdf + fontlib libraries also.
 
-    composer require usmanbarefoot/laravel-dompdf
+    composer require usmanbarefoot/laravel-dompdf:dev-master
 
 ## Installation
 
